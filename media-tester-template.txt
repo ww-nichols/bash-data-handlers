@@ -1,0 +1,5 @@
+General;%CompleteName% - %Format%$if(%OverallBitRate%, at %OverallBitRate/String%) - %FileSize/String%[ for %Duration/String1%] - 
+Video;Video #%StreamKindID% - %Format%$if(%BitRate%, at %BitRate/String%) - %Width% x %Height% (%AspectRatio%)$if(%FrameRate%, at %FrameRate% fps)
+Audio;Audio #%StreamKindID% - %Format%$if(%BitRate%, at %BitRate/String%)Infos - %Channel(s)/String%, %SamplingRate/String%
+Text;Text #%StreamKindID% - %Format%$if(%Language%,Language - %Language%)\r\n
+
